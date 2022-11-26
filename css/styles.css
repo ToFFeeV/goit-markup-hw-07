@@ -195,7 +195,7 @@ ul {
     background-image: linear-gradient( to right, 
         rgba(47, 48, 58, 0.4), 
         rgba(47, 48, 58, 0.4)), 
-        url(../images/hat-bg.jpg);
+        url(../images/image/hat-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -268,19 +268,19 @@ ul {
 }
 
 .features__icon--antenna::before {
-    background-image: url(../images/features/antenna.svg);
+    background-image: url(../images/icon/antenna.svg);
 }
 
 .features__icon--clock::before {
-    background-image: url(../images/features/clock.svg);
+    background-image: url(../images/icon/clock.svg);
 }
 
 .features__icon--diagram::before {
-    background-image: url(../images/features/diagram.svg);
+    background-image: url(../images/icon/diagram.svg);
 }
 
 .features__icon--astronaut::before {
-    background-image: url(../images/features/astronaut.svg);
+    background-image: url(../images/icon/astronaut.svg);
 }
 
 .features__title {
@@ -907,7 +907,7 @@ input:focus+.input__icon {
 .checkbox__input:checked+.checkbox__icon {
     border-color: #2196F3;
     background-color: #2196F3;
-    background-image: url('../images/inputs/icon\ check.svg');
+    background-image: url('../images/icon/icon-check.svg');
     background-size: contain;
     background-origin: border-box;
 
