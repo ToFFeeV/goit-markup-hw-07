@@ -1,0 +1,45 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 10px;
+
+    &--bloc {
+        padding: 16px 32px 0px 32px;
+        margin: 0;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 44px;
+        height: 44px;
+    
+        border-radius: 50%;
+    
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            fill: #FFFFFF;
+            background-color: #2196F3;
+        }
+
+        &--fill {
+            fill: #AFB1B8;
+        }
+
+        &--color {
+            fill: #fff;
+            background-color: #44454E;
+        }
+    }
+
+    &__svg {
+        width: 20px;
+        height: 20px;
+    }
+}

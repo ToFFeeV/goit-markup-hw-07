@@ -296,7 +296,7 @@ ul {
     color: #757575;
 }
 
-.profile__style{
+.profile{
     display: flex;
     padding: 0;
     gap: 30px;
